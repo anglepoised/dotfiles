@@ -1,0 +1,49 @@
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
+	editor = nano
+	excludesfile = ~/.config/git/ignore
+[credential]
+	helper = osxkeychain
+[user]
+	name = Paul Love
+	email = paul@anglepoised.com
+	signingkey = ~/.ssh/id_ed25519
+	useConfigOnly = true
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	df = diff
+	last = log -p -1 HEAD
+	list = log --pretty=oneline
+	unstage = reset HEAD --
+	lg = log -p
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	logbm = !"echo  use cherry -v [branch] instead!"
+	logbr = log @{1}.. --pretty=oneline
+	prune = fetch --prune --all
+	fp = push --force-with-lease
+	fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
+[push]
+	default = simple
+	autoSetupRemote = true
+[advice]
+	statusHints = false
+[url "git@github.com:"]
+	insteadOf = git://github.com/
+	insteadOf = http://github.com/
+	insteadOf = https://github.com/
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
+[tag]
+	gpgsign = true
