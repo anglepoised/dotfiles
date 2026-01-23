@@ -1,0 +1,32 @@
+.DS_Store
+.zsh_sessions/
+.npm/
+.cache/
+.ssh/
+.config/gh/hosts.yml
+Library/
+.CFUserTextEncoding
+.Trash
+.lesshst
+.node_repl_history
+.pnpm-state
+.python_history
+.viminfo
+.zsh_history
+.zcompdump-*
+.zcompdump-*.zwc
+.oh-my-zsh
+.gk
+Applications
+Calibre Library
+Desktop
+Documents
+Downloads
+Games
+Google Drive
+Large
+Movies
+Music
+Pictures
+Projects
+Public
