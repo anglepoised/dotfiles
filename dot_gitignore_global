@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store*
+Thumbs.db
+ehthumbs.db
+
+# Editor junk
+.*.swp
+.vscode
+
+# Node
+node_modules/
+
+# Logs
+*.log
