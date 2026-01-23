@@ -2,7 +2,6 @@
 	defaultBranch = main
 [core]
 	autocrlf = input
-	editor = nano
 	excludesfile = ~/.config/git/ignore
 [credential]
 	helper = osxkeychain
