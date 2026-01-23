@@ -1,6 +1,7 @@
 tap "hashicorp/tap"
 tap "microsoft/git"
 tap "theseal/blank-screensaver"
+brew "age"
 brew "chezmoi"
 brew "exiftool"
 brew "fzf"
