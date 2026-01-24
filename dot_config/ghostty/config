@@ -49,3 +49,7 @@
 # resize-overlay-duration = 4s 200ms
 
 shell-integration-features = sudo
+
+# keybindings
+keybind = cmd+alt+right=next_tab
+keybind = cmd+alt+left=previous_tab
