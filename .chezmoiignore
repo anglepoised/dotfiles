@@ -16,7 +16,6 @@
 .local
 .node_repl_history
 .npm/
-.oh-my-zsh
 .pnpm-state
 .python_history
 .ssh/
