@@ -15,6 +15,16 @@
     "favorite_models": [],
     "model_parameters": [],
   },
+  "format_on_save": "on",
+  "formatter": {
+    "external": {
+      "command": "pnpm",
+      "arguments": ["-s", "prettier", "--stdin-filepath", "{buffer_path}"],
+    },
+  },
+  "prettier": {
+    "require_config": true,
+  },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
