@@ -7,6 +7,8 @@
 .config/micro/backups/
 .config/micro/buffers/
 .config/op
+.config/zed/conversations
+.config/zed/prompts
 .cups
 .docker
 .DS_Store
