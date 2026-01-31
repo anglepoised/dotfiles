@@ -1,4 +1,3 @@
-tap "hashicorp/tap"
 tap "microsoft/git"
 brew "age"
 brew "chezmoi"
