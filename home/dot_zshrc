@@ -8,6 +8,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Sane zsh completion without OMZ
 autoload -Uz compinit
 compinit -C -d "$HOME/.zcompdump"
+source "/opt/homebrew/opt/fzf-tab/share/fzf-tab/fzf-tab.zsh"
 
 # Make history useful
 HISTFILE="$HOME/.zsh_history"
