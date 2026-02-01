@@ -7,7 +7,7 @@ My dotfiles, managed with [chezmoi](https://www.chezmoi.io/).
 ### Dump homebrew
 
 ```sh
-brew bundle dump --file ~/.config/homebrew/Brewfile --force --no-vscode
+brew-bundle-dump
 ```
 
 ### Git secret scanning

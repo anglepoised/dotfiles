@@ -26,6 +26,9 @@ setopt autocd
 export LESS='-R'
 export LESSHISTFILE='-'
 
+# Local scripts
+export PATH="$HOME/.local/bin:$PATH"
+
 # Preferred editor
 export EDITOR="micro"
 export VISUAL="micro"

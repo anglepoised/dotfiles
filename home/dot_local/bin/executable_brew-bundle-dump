@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+set -eu
+
+brewfile="$HOME/.config/homebrew/Brewfile"
+
+if ! command -v brew >/dev/null 2>&1; then
+  echo "brew not found" >&2
+  exit 1
+fi
+
+mkdir -p "$(dirname "$brewfile")"
+
+brew bundle dump --file "$brewfile" --force --no-vscode
+
+# Track the updated Brewfile in chezmoi.
+chezmoi add "$brewfile"
+
+echo "Brewfile updated and added to chezmoi."
+echo "Tip: add any related config changes, then review with 'git status -sb' or 'chezmoi diff'."
