@@ -3,6 +3,7 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.config/git/ignore
+	hooksPath = ~/.config/git/hooks
 [credential]
 	helper = osxkeychain
 [user]

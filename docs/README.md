@@ -9,3 +9,8 @@ My dotfiles, managed with [chezmoi](https://www.chezmoi.io/).
 ```sh
 brew bundle dump --file ~/.config/homebrew/Brewfile --force --no-vscode
 ```
+
+### Git secret scanning
+
+This repo configures a global `pre-commit` hook (via `core.hooksPath`) that
+uses `gitleaks` to block secrets from being committed.
