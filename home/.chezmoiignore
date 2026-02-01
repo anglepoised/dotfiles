@@ -18,7 +18,8 @@
 .npm/
 .pnpm-state
 .python_history
-.ssh/
+.ssh/*
+!.ssh/config
 .Trash
 .viminfo
 .yarn
