@@ -4,6 +4,7 @@
 	autocrlf = input
 	excludesfile = ~/.config/git/ignore
 	hooksPath = ~/.config/git/hooks
+	pager = delta
 [credential]
 	helper = osxkeychain
 [user]
@@ -52,3 +53,9 @@
 	allowedSignersFile = ~/.config/git/allowed_signers
 [tag]
 	gpgsign = true
+[delta]
+	navigate = true
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictStyle = zdiff3
