@@ -2,6 +2,8 @@
 .CFUserTextEncoding
 .codex
 .config/chezmoi
+!.config/chezmoi/
+!.config/chezmoi/chezmoi.toml
 .config/gh/hosts.yml
 .config/iterm2
 .config/micro/backups/
