@@ -1,0 +1,26 @@
+# Settings for delta
+# https://dandavison.github.io/delta/
+
+[delta]
+    features = calm
+    navigate = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta "calm"]
+	plus-style = syntax "#1f4d3a"
+	plus-emph-style = syntax bold "#24624a"
+	plus-non-emph-style = syntax "#1f4d3a"
+	plus-empty-line-marker-style = syntax "#1f4d3a"
+
+	minus-style = syntax "#4a293a"
+	minus-emph-style = syntax bold "#71405a"
+	minus-non-emph-style = syntax "#4a293a"
+	minus-empty-line-marker-style = syntax "#4a293a"
+
+	hunk-header-style = file line-number syntax
+	hunk-header-decoration-style = "#2f3541" ul
+
+	file-style = bold "#86a7d8"
+	file-decoration-style = "#2f3541"

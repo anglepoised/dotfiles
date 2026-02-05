@@ -53,9 +53,7 @@
 	allowedSignersFile = ~/.config/git/allowed_signers
 [tag]
 	gpgsign = true
-[delta]
-	navigate = true
-[interactive]
-	diffFilter = delta --color-only
 [merge]
 	conflictStyle = zdiff3
+[include]
+	path = ~/.config/git/delta.gitconfig
