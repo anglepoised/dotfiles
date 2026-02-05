@@ -1,6 +1,7 @@
 brew "age"
 brew "chezmoi"
 brew "exiftool"
+brew "eza"
 brew "fzf"
 brew "fzf-tab"
 brew "gh"
