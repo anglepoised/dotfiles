@@ -1,4 +1,5 @@
 brew "age"
+brew "bat"
 brew "chezmoi"
 brew "exiftool"
 brew "eza"

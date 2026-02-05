@@ -72,6 +72,9 @@ alias g='git'
 # lazygit
 alias lg='lazygit'
 
+# bat
+alias b='bat'
+
 # go home
 alias home='cd ~'
 
