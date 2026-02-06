@@ -79,6 +79,9 @@ alias b='bat'
 if command -v rg >/dev/null 2>&1; then
   export RIPGREP_CONFIG_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
   alias rgh='rg --hidden --glob "!.git"'
+  rgd() {
+    rg --json "$@" | delta
+  }
 fi
 
 # go home
