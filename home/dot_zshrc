@@ -84,6 +84,23 @@ if command -v rg >/dev/null 2>&1; then
   }
 fi
 
+# fd
+if command -v fd >/dev/null 2>&1; then
+  alias f='fd'
+  alias fdf='fd --type f'
+  alias fdd='fd --type d'
+  alias fdh='fd --hidden --no-ignore-vcs'
+fi
+
+# fd + bat + fzf file picker
+if command -v fd >/dev/null 2>&1 && command -v fzf >/dev/null 2>&1 && command -v bat >/dev/null 2>&1; then
+  fp() {
+    fd --type f --hidden --follow --exclude .git \
+      | fzf --preview 'bat --style=numbers --color=always --line-range :200 {}' \
+            --preview-window 'right,60%,border-left'
+  }
+fi
+
 # go home
 alias home='cd ~'
 
