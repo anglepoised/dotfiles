@@ -75,6 +75,12 @@ alias lg='lazygit'
 # bat
 alias b='bat'
 
+# ripgrep
+if command -v rg >/dev/null 2>&1; then
+  export RIPGREP_CONFIG_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
+  alias rgh='rg --hidden --glob "!.git"'
+fi
+
 # go home
 alias home='cd ~'
 

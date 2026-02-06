@@ -1,0 +1,4 @@
+# ripgrep defaults
+--smart-case
+--max-columns=200
+--max-columns-preview
