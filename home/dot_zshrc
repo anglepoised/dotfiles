@@ -43,6 +43,12 @@ eval "$(starship init zsh)"
 # zoxide
 eval "$(zoxide init zsh)"
 
+# navi
+if command -v navi >/dev/null 2>&1; then
+  eval "$(navi widget zsh)"
+  bindkey '^g' _navi_widget
+fi
+
 # fzf (Homebrew)
 if command -v fzf >/dev/null 2>&1; then
   source <(fzf --zsh)

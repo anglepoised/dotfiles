@@ -1,0 +1,5 @@
+% git
+# status
+git status
+# new branch
+git checkout -b <branch>
