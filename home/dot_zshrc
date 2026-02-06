@@ -101,6 +101,12 @@ if command -v fd >/dev/null 2>&1 && command -v fzf >/dev/null 2>&1 && command -v
   }
 fi
 
+# git-absorb
+if command -v git-absorb >/dev/null 2>&1; then
+  alias gabs='git absorb'
+  alias gabr='git absorb --and-rebase'
+fi
+
 # go home
 alias home='cd ~'
 
