@@ -1,0 +1,29 @@
+% chezmoi
+# see pending changes
+chezmoi diff
+# apply changes
+chezmoi apply
+# edit a file in source state
+chezmoi edit <path>
+# add file from $HOME
+chezmoi add <path>
+# re-add file from $HOME (overwrite)
+chezmoi add --force <path>
+# update from source state
+chezmoi re-add <path>
+# update chezmoi itself
+chezmoi upgrade
+# manage a template
+chezmoi template <path>
+# check managed files
+chezmoi managed
+# status (short summary)
+chezmoi status
+# jump to source dir
+chezmoi cd
+# edit config
+chezmoi edit-config
+# doctor (health check)
+chezmoi doctor
+# update Brewfile from installed packages
+brew bundle dump --file ~/.config/homebrew/Brewfile --force

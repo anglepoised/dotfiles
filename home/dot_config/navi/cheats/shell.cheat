@@ -1,0 +1,37 @@
+% shell
+# list (eza/ls)
+l
+# list all (eza/ls)
+la
+# long list with git (eza/ls)
+ll
+# tree view (eza)
+lt
+# git shortcut
+g
+# lazygit
+lg
+# bat
+b
+# ripgrep hidden (alias: rgh)
+rgh <pattern>
+# ripgrep -> delta (function: rgd)
+rgd <pattern>
+# fd (alias: f)
+f <pattern>
+# fd files (alias: fdf)
+fdf <pattern>
+# fd dirs (alias: fdd)
+fdd <pattern>
+# fd hidden (alias: fdh)
+fdh <pattern>
+# fd + bat + fzf file picker (function: fp)
+fp
+# go home
+home
+# reload shell config
+reload
+# tailscale GUI CLI alias
+tailscale
+# exif rename helper
+exif <file>

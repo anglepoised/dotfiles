@@ -1,0 +1,25 @@
+% homebrew
+# update formulae and casks
+brew update
+# upgrade everything
+brew upgrade
+# upgrade one formula
+brew upgrade <formula>
+# install formula
+brew install <formula>
+# uninstall formula
+brew uninstall <formula>
+# list installed formulae
+brew list
+# show outdated
+brew outdated
+# info
+brew info <formula>
+# services list
+brew services list
+# start service
+brew services start <service>
+# brew bundle (default Brewfile)
+brew bundle
+# brew bundle (explicit Brewfile)
+brew bundle --file ~/.config/homebrew/Brewfile

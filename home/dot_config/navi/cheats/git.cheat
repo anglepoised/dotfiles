@@ -1,5 +1,39 @@
 % git
-# status
+# status (alias: st)
 git status
-# new branch
-git checkout -b <branch>
+# status (alias)
+git st
+# checkout (alias: co)
+git co <branch>
+# branch list (alias: br)
+git br
+# commit with message (alias: ci)
+git ci -m "<message>"
+# diff (alias: df)
+git df
+# last commit patch (alias: last)
+git last
+# one-line log (alias: list)
+git list
+# unstage file(s) (alias: unstage)
+git unstage <path>
+# log patch (alias: lg)
+git lg
+# log graph (alias: lol)
+git lol
+# log graph all (alias: lola)
+git lola
+# log previous branch (alias: logbr)
+git logbr
+# prune all remotes (alias: prune)
+git prune
+# push force-with-lease (alias: fp)
+git fp
+# interactive fixup commit (alias: fixup)
+git fixup
+# git-absorb (alias: gabs)
+gabs
+# git-absorb --and-rebase (alias: gabr)
+gabr
+# switch to new branch
+git switch -c <branch>

@@ -1,0 +1,27 @@
+% zsh bindings
+# start of line (emacs keymap)
+Ctrl+A
+# end of line (emacs keymap)
+Ctrl+E
+# backward char
+Ctrl+B
+# forward char
+Ctrl+F
+# backward word
+Alt+B
+# forward word
+Alt+F
+# delete to start of line
+Ctrl+U
+# delete to end of line
+Ctrl+K
+# delete previous word
+Ctrl+W
+# delete next char
+Ctrl+D
+# yank (paste)
+Ctrl+Y
+# reverse search history
+Ctrl+R
+# clear screen
+Ctrl+L
