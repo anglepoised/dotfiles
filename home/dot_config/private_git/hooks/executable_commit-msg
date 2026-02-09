@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -eu
+
+msg_file="${1:?missing commit message file}"
+
+if [ -x ".githooks/commit-msg" ]; then
+  ./.githooks/commit-msg "$msg_file"
+fi

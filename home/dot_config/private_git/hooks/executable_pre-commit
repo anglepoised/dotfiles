@@ -8,3 +8,8 @@ if ! command -v gitleaks >/dev/null 2>&1; then
 fi
 
 gitleaks protect --staged --redact --no-banner
+
+# Optional repo-local hook
+if [ -x ".githooks/pre-commit" ]; then
+  ./.githooks/pre-commit
+fi

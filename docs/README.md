@@ -17,9 +17,8 @@ uses `gitleaks` to block secrets from being committed.
 
 ### Repo-local commit-msg hook
 
-This repo also has a local Conventional Commits check in `.githooks/commit-msg`.
-After cloning, enable it for this repo:
+This repo has a Conventional Commits check in `.githooks/commit-msg`.
 
-```sh
-git config --local core.hooksPath .githooks
-```
+No repo-local `core.hooksPath` override is needed. Global hooks live in
+`~/.config/git/hooks`, and the global `commit-msg` hook dispatches to
+`./.githooks/commit-msg` when present.
