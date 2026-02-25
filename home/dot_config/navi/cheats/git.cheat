@@ -37,3 +37,5 @@ gabs
 gabr
 # switch to new branch
 git switch -c <branch>
+# overwrite local main with remote (force)
+git overwrite-main

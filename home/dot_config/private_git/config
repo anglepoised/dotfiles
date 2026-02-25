@@ -31,6 +31,7 @@
 	prune = fetch --prune --all
 	fp = push --force-with-lease
 	fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
+	overwrite-main = "!f(){ git fetch origin && git switch main && git reset --hard origin/main; }; f"
 [push]
 	default = simple
 	autoSetupRemote = true
