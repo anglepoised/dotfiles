@@ -34,6 +34,9 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="micro"
 export VISUAL="micro"
 
+# XDG base dirs
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # mise
 eval "$(mise activate zsh)"
 
