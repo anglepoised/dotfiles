@@ -56,3 +56,7 @@ keybind = cmd+alt+left=previous_tab
 
 # visual
 font-size = 17
+
+# make splits more distinctive
+unfocused-split-opacity = 0.7
+split-divider-color = #555555
