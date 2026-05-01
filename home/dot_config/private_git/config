@@ -21,7 +21,7 @@
 	st = status
 	df = diff
 	last = log -p -1 HEAD
-	list = log --pretty=oneline
+	list = log --oneline --no-merges
 	unstage = reset HEAD --
 	lg = log -p
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
