@@ -39,3 +39,7 @@ gabr
 git switch -c <branch>
 # overwrite local main with remote (force)
 git overwrite-main
+# reword commit
+git history reword <commit>
+# split commit
+git history split <commit>
