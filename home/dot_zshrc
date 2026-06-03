@@ -37,6 +37,9 @@ export VISUAL="micro"
 # XDG base dirs
 export XDG_CONFIG_HOME="$HOME/.config"
 
+# Suppress homebrew new reports
+export HOMEBREW_NO_UPDATE_REPORT_NEW=1
+
 # mise
 eval "$(mise activate zsh)"
 
