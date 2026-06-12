@@ -3,7 +3,6 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.config/git/ignore
-	hooksPath = ~/.config/git/hooks
 	pager = delta
 [credential]
 	helper = osxkeychain
@@ -51,5 +50,11 @@
 	gpgsign = true
 [merge]
 	conflictStyle = zdiff3
+[hook "gitleaks"]
+	event = pre-commit
+	command = gitleaks protect --staged --redact --no-banner
+[hook "repo-local-commit-msg"]
+	event = commit-msg
+	command = "sh -c 'if [ -x .githooks/commit-msg ]; then ./.githooks/commit-msg \"$0\"; fi'"
 [include]
 	path = ~/.config/git/delta.gitconfig
