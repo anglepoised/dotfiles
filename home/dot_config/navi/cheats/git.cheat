@@ -43,3 +43,5 @@ git overwrite-main
 git history reword <commit>
 # split commit
 git history split <commit>
+# rebase all commits reachable from <branch>
+git rebase -i --root
