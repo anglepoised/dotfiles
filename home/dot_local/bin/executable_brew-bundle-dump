@@ -10,7 +10,7 @@ fi
 
 mkdir -p "$(dirname "$brewfile")"
 
-brew bundle dump --file "$brewfile" --force --no-vscode
+brew bundle dump --file "$brewfile" --force --no-vscode --no-npm
 
 # Track the updated Brewfile in chezmoi.
 chezmoi add "$brewfile"
