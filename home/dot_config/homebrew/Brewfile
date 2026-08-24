@@ -124,6 +124,8 @@ cask "minecraft"
 cask "notion"
 # Calculator and converter application
 cask "numi"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Control your smart light system
 cask "philips-hue-sync"
 # Colour picker for colours onscreen
