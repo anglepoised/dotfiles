@@ -64,6 +64,8 @@ cask "alfred"
 cask "appcleaner"
 # Multi-cloud backup application
 cask "arq"
+# Screen recorder
+cask "bettercapture"
 # Display management tool
 cask "betterdisplay"
 # E-books management software
@@ -106,8 +108,6 @@ cask "iina"
 cask "imageoptim"
 # Tool to scan a website checking for broken links
 cask "integrity"
-# Open-source screen recorder built with web technology
-cask "kap"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Scan and remove malware, spyware, and viruses
