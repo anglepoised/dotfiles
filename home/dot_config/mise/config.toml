@@ -3,5 +3,6 @@
 [tools]
 node = "24.19.0"
 pnpm = "latest"
+"npm:wrangler" = "latest"
 # nothing required
 
